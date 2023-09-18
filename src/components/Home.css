@@ -1,0 +1,40 @@
+#home-container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../accest/Bitmap.jpg');
+}
+#detail {
+    font-family: 'Bellefair', serif;
+    margin-top: 20vh;
+    justify-content: space-evenly;
+}
+#hd-1 {
+    height: auto;
+    width: 28vw;
+    color: white;
+}
+#hd-1 > h1 {
+    font-size: 9vw;
+    margin: 3vh 0 3vh 0;
+}
+#hd-1 > h2 {
+    font-weight: 1;
+}
+#hd-1 > p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 3vh;
+}
+#hd-2 {
+    font-size: 6vh;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    height: 15vw;
+    width: 15vw;
+}
+
+.hd {
+    color: white;
+    width: 40vw;
+    height: 40vh;
+}
