@@ -1,10 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+
 import Home from './components/Home';
 import './App.css';
 import Navbar from './components/Navbar'
 import Crew from './components/crew/Crew';
 import Crypto from "./components/crew/Crypto";
 import Pilot from "./components/crew/Pilot";
+import Destination from "./components/destination/Destination";
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>} />
+          <Route path="/destination" element={<Destination/>} />
           <Route path="crew" element={<Crew/>} />
           <Route path="crypto" element={<Crypto/>} />
           <Route path="pilot" element={<Pilot/>} />

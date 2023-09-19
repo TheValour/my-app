@@ -1,0 +1,35 @@
+.moon-container {
+    font-family: 'Ubuntu', sans-serif;;
+    font-size: 2.5vh;
+    padding: 12vh;
+    background-color: #000;
+    color: white;
+}
+
+.moon-container > div > img{
+    width: 32vw;
+    height: 60vh;
+}
+.m1 {
+    width: 40vw;
+    height: 70vh;
+}
+p{
+    color: #a09c9c;
+    font-weight: 1;
+    margin-bottom: 5vh;
+}
+.detail {
+    padding: 1vh;
+    margin-bottom: 2vh;
+    height: 4vh;
+    border-bottom: 1px solid rgb(128, 123, 123);
+}
+.val {
+    float: right;
+    color: rgb(160, 166, 172);
+}
+h1 {
+    font-size: 7vh;
+    font-weight: 400;
+}

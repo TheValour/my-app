@@ -1,14 +1,14 @@
 /* Navbar.css */
 .navbar {
   font-family: 'Barlow', sans-serif;
-  padding: 2vh;
   width: 100vw;
-  height: 8vh;
+  height: 10vh;
+  background-color: #0b0f1a;
   color: #fff;
 }
 
 .navbar-list {
-  background-image: url(../accest/Rectangle.png);
+  /* background-image: url(../accest/Rectangle.png); */
   margin: 0;
   padding: 0;
   width: 40vw;
@@ -25,6 +25,7 @@ h3{
 
 .item {
   display: inline-block;
+  background-color: #180f0f;
 }
 
 .link {
@@ -39,7 +40,7 @@ h3{
 
 .line{
   left: 12vw;
-  top: 33px;
+  top: 19px;
   width: 50vw;
   height: 10px;
   border-bottom: 1px solid white;
