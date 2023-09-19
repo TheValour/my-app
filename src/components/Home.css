@@ -1,11 +1,7 @@
 #home-container{
     width: 100vw;
     height: 100vh;
-    background-image: url('../accest/Bitmap.jpg');
-}
-#detail {
     font-family: 'Bellefair', serif;
-    margin-top: 20vh;
     justify-content: space-evenly;
 }
 #hd-1 {

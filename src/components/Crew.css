@@ -1,0 +1,29 @@
+#crew-container{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Bellefair', serif;
+    justify-content: space-evenly;
+}
+#cd-1 {
+    padding: 2vh;
+    height: auto;
+    width: 38vw;
+    color: white;
+}
+#cd-1 > h1 {
+    font-size: 5vw;
+    margin: 3vh 0 3vh 0;
+}
+#cd-1 > h2 {
+    font-weight: 1;
+}
+#cd-1 > p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 3vh;
+}
+#cd-2 {
+    margin-top: 8vh;
+}
+#cd-2 > img {
+    width: 60vh;
+}
