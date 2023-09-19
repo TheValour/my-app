@@ -27,3 +27,14 @@
 #cd-2 > img {
     width: 60vh;
 }
+
+#box {
+    display: flex;
+}
+.circle {
+    margin: 3vh 2vh 0 0;
+    background-color: #ffffff36;
+    width: 3vh;
+    height: 3vh;
+    border-radius: 50%;
+}
