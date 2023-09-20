@@ -1,7 +1,8 @@
 #crew-container{
+    overflow: hidden;
     background-image: url('../../accest/Bitmap.png');
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     font-family: 'Bellefair', serif;
     justify-content: space-evenly;
 }
@@ -23,7 +24,7 @@
     font-size: 3vh;
 }
 #cd-2 {
-    margin-top: 8vh;
+    margin-top: 16vh;
 }
 #cd-2 > img {
     width: 60vh;

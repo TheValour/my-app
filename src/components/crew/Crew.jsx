@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavLink } from "react-router-dom"
 import './Crew.css'
-import crewImg from '../../accest/astro.png';
 
 export default function Crypto() {
   return (
@@ -24,7 +23,7 @@ export default function Crypto() {
               </NavLink>
             </div>
         </div>
-        <div id='cd-2' ><img src={crewImg} alt="img" /></div>
+        <div id='cd-2' ><img src='photos/astro.png' alt="img" /></div>
     </div>
   )
 }

@@ -1,14 +1,12 @@
 import React from 'react'
 import Moon from './Moon'
+import Mars from './Mars';
 
 export default function Destination() {
-  const containerStyle = {
-    backgroundColor: 'none'
-  };
-
   return (
-    <div className='dest-container' style={containerStyle}>
+    <div className='dest-container' >
       <Moon />
+      <Mars />
     </div>
   )
 }

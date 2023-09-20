@@ -2,7 +2,6 @@ import React from 'react'
 import { NavLink } from "react-router-dom"
 
 import './Crew.css'
-import crewImg from '../../accest/Linex.png';
 
 export default function Crew() {
   return (
@@ -24,7 +23,7 @@ export default function Crew() {
             </NavLink>
         </div>
       </div>
-        <div id='cd-2' ><img src={crewImg} alt="img" /></div>
+        <div id='cd-2' ><img src='./photos/Linex.png' alt="img" /></div>
     </div>
   )
 }

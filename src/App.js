@@ -7,6 +7,7 @@ import Crew from './components/crew/Crew';
 import Crypto from "./components/crew/Crypto";
 import Pilot from "./components/crew/Pilot";
 import Destination from "./components/destination/Destination";
+import About from "./components/about/About";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="crew" element={<Crew/>} />
           <Route path="crypto" element={<Crypto/>} />
           <Route path="pilot" element={<Pilot/>} />
+          <Route path="about" element={<About/>} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -1,7 +1,7 @@
 #home-container{
     background-image: url('../accest/Bitmap.jpg');
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     font-family: 'Bellefair', serif;
     justify-content: space-evenly;
 }
@@ -34,4 +34,8 @@
     color: white;
     width: 40vw;
     height: 40vh;
+}
+
+#hd-2:hover {
+    background-color: rgb(173, 173, 157);
 }
