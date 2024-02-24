@@ -1,11 +1,9 @@
-import React from 'react'
 import { NavLink } from "react-router-dom"
-
 import './Crew.css'
 
 export default function Pilot() {
   return (
-    <div id='crew-container' className='flex'>
+    <div id='crew-container' className='flex-box'>
       <div id='cd-1'>
         <h2>PILOT</h2>
         <h1>Victor Glover</h1>

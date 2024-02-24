@@ -15,7 +15,7 @@
   height: 10vh;
   list-style-type: none;
   float: right;
-  justify-content: space-evenly;
+  justify-content: space-evenly !important;
 }
 h3{
   margin: 0 1vh 0 0;

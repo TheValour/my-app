@@ -1,4 +1,3 @@
-import React from 'react';
 import './About.css'; 
 import Footer from './Footer';
 
@@ -14,7 +13,7 @@ function About() {
           for space exploration and discovery.
         </p>
         <p>
-          Whether you're a seasoned astronomer or a curious beginner, our website
+          Whether you&apos;re a seasoned astronomer or a curious beginner, our website
           provides a wealth of information about the universe, including
           articles, images, videos, and interactive tools to help you explore and
           understand the cosmos.
