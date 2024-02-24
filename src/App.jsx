@@ -1,13 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-import Home from './components/Home';
+import { About, Home, Destination, Crew, Crypto, Pilot, Navbar } from "./components";
 import './App.css';
-import Navbar from './components/Navbar'
-import Crew from './components/crew/Crew';
-import Crypto from "./components/crew/Crypto";
-import Pilot from "./components/crew/Pilot";
-import Destination from "./components/destination/Destination";
-import About from "./components/about/About";
 
 function App() {
   return (
