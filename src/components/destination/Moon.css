@@ -33,3 +33,7 @@ h1 {
     font-size: 7vh;
     font-weight: 400;
 }
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
